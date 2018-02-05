@@ -1,5 +1,7 @@
 package com.burakkutbay.model;
 
+import java.util.List;
+
 public class User {
 
     private String name;
@@ -37,5 +39,15 @@ public class User {
 
     public void setAbility(List<String> ability) {
         this.ability = ability;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", email='" + email + '\'' +
+                ", ability=" + ability +
+                '}';
     }
 }
