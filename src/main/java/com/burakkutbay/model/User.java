@@ -1,13 +1,10 @@
 package com.burakkutbay.model;
 
-import java.util.List;
-
 public class User {
 
     private String name;
     private String surname;
     private String email;
-    private List<String> ability;
 
     public String getName() {
         return name;
@@ -33,13 +30,6 @@ public class User {
         this.email = email;
     }
 
-    public List<String> getAbility() {
-        return ability;
-    }
-
-    public void setAbility(List<String> ability) {
-        this.ability = ability;
-    }
 
     @Override
     public String toString() {
@@ -47,7 +37,6 @@ public class User {
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", email='" + email + '\'' +
-                ", ability=" + ability +
                 '}';
     }
 }
