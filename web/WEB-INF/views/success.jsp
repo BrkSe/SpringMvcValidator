@@ -13,13 +13,13 @@
       <td>${user.name}</td>
     </tr>
     <tr>
-      <th>Surname</th>
-      <td>${user.surname}</td>
-    </tr>
-    <tr>
-      <th>Email</th>
-      <td>${user.email}</td>
-    </tr>
   </table>
+  <th>Surname</th>
+  <td>${user.surname}</td>
+  </tr>
+  <tr>
+    <th>Email</th>
+    <td>${user.email}</td>
+  </tr>
 </body>
 </html>
