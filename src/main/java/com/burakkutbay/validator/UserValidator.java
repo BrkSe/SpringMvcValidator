@@ -19,7 +19,6 @@ public class UserValidator implements Validator {
         ValidationUtils.rejectIfEmpty(errors, "name", "empty.name");
         ValidationUtils.rejectIfEmpty(errors, "surname", "empty.surname");
         ValidationUtils.rejectIfEmpty(errors, "email", "empty.email");
-        ValidationUtils.rejectIfEmpty(errors, "ability", "empty.ability");
 
         User user = (User) o;
 
